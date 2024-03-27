@@ -5,3 +5,6 @@ from django.http import HttpResponse
 def members(request):
     return HttpResponse("Hello world!!!")
 
+def wish(request):
+    message = "<h1>Hi buddy, How are you</h1>"
+    return HttpResponse(message)
